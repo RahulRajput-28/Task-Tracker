@@ -136,6 +136,10 @@ input {
     font-weight: bold;
 }
 
+.task-completed{
+    text-decoration:line-through;
+}
+
 /* Buttons */
 
 .task-actions {
