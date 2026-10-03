@@ -1,7 +1,7 @@
 function TaskItem({task,statusChange,editHandel,deleteHandel}){
     return(
         <div className="task-item">
-            <h3>{task.task_name}</h3>
+            <h3 className={task.complete ? "task-completed" :""}>{task.task_name}</h3>
             <p>{task.about}</p>
 
             {/* show the current status*/}
