@@ -50,11 +50,11 @@ I used PostgreSQL to store the tasks.
 
 ## API
 
--POST /api/tasks - Add a task
--GET /api/tasks - Get tasks
--PUT /api/tasks/:id - Edit a task
--PATCH /api/tasks/:id/status - Change task status
--DELETE /api/tasks/:id - Delete a task
+- POST /api/tasks - Add a task
+- GET /api/tasks - Get tasks
+- PUT /api/tasks/:id - Edit a task
+- PATCH /api/tasks/:id/status - Change task status
+- DELETE /api/tasks/:id - Delete a task
 
 ## How it works
 
