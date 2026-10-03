@@ -29,11 +29,8 @@ function TaskPage(){
 
     // Change the status of the task
     const handleChange=async(id,complete)=>{
-        const result=await updateTaskStatus(id,complete);
-
-        const newTask=task.map((item)=>item.id===result.id?result:item);
-
-        setTask(newTask);
+        await updateTaskStatus(id, complete);
+        await loadTasks();
     }
 
 
