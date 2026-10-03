@@ -66,6 +66,16 @@ React sends requests to the backend using API calls. The backend then performs t
 
 I have created .env file inside the backend folder and add my PostgreSQL database details before running the backend.
 
+details-
+```env
+DB_USER=
+DB_HOST=
+DB_NAME=
+DB_PASSWORD=
+DB_PORT=
+PORT=
+```
+
 ## Author
 
 Rahul Rajput
