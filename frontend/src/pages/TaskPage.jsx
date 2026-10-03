@@ -27,7 +27,7 @@ function TaskPage(){
     };
 
 
-    //it will the status of the task
+    // Change the status of the task
     const handleChange=async(id,complete)=>{
         const result=await updateTaskStatus(id,complete);
 
