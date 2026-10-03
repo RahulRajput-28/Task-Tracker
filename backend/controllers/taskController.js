@@ -24,7 +24,7 @@ const addTask= async(req,res)=>{
     
 }
 
-//used to get the task according to used need from database
+//used to get the task according to user need from database
 const getTask=async(req,res)=>{
     try{
         const {complete}=req.query;
