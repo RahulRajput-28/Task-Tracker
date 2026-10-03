@@ -44,7 +44,7 @@ export const getTask=async(value)=>{
         const result=await fetch(url);
 
         if (!result.ok) {
-            throw new Error("Failed to create task");
+            throw new Error("Failed to get a task");
         }
 
         return result.json();
@@ -68,7 +68,7 @@ export const updateTaskStatus=async(id,complete)=>{
         })
 
         if (!result.ok) {
-            throw new Error("Failed to create task");
+            throw new Error("Failed to update a task status");
         }
 
         return result.json();
@@ -92,7 +92,7 @@ export const updateTask=async(id,task)=>{
         })
 
         if (!result.ok) {
-            throw new Error("Failed to create task");
+            throw new Error("Failed to update a task");
         }
 
         return result.json();
@@ -112,7 +112,7 @@ export const deleteTask=async(id)=>{
         })
 
         if (!result.ok) {
-            throw new Error("Failed to create task");
+            throw new Error("Failed to delete a task");
         }
 
         return result.json();
